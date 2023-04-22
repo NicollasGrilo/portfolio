@@ -1,0 +1,22 @@
+.sb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.sb a{
+    text-decoration: none;
+    display: flex;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    color: white;
+    background-color: #f44926;
+    transition: .5s;
+}
+.sb a:hover {
+    background-color: #ac341d;
+}

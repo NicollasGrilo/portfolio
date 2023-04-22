@@ -1,0 +1,29 @@
+.home {
+    background-image: linear-gradient(90deg, #8c52ff, #5ce1e6);
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4em;
+    gap: 30px;
+}
+.home h1 {
+    color: white;
+    font-size: 100px;
+}
+.home span {
+    display: flex;
+    margin-left: 80px;
+}
+.home img {
+    width: 350px;
+    border-radius: 50%;
+    -webkit-box-shadow: 10px 9px 20px -3px rgba(140,82,255,1);
+    -moz-box-shadow: 10px 9px 20px -3px rgba(140,82,255,1);
+    box-shadow: 10px 9px 20px -3px rgba(140,82,255,1);
+}
+
+.list {
+    list-style-type: none;
+}
+

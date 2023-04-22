@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 3em;
+    background-image: linear-gradient(
+    90deg, #8c52ff, #5ce1e6)
+}
+.list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    color: white;
+}
+.list svg {
+    font-size: 4em;
+}
+
+.item {
+    margin-left: 0.5em;
+    font-size: 1.4em;
+}
+
+.item a {
+    text-decoration: none;
+}
