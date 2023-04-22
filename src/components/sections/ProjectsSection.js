@@ -7,7 +7,7 @@ function Projects () {
             <ul className={styles.list}>
                 <li className={styles.p1}>
                     <h2>Projeto 1</h2>
-                    <p>O voo se encontra com a plataforma neste jogo de movimento sem fim</p>
+                    <p>O voo se encontra com a plataforma neste jogo de movimento sem fim.</p>
                 </li>
                 <li className={styles.p2}>
                     <h2>Projeto 2</h2>
