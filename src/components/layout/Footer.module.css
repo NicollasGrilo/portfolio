@@ -26,12 +26,17 @@
     text-decoration: none;
 }
 
+.link a {
+    color: white;
+}
+
 .links {
     display: flex;
     list-style: none;
     align-items: center;
     justify-content: space-around;
     margin-bottom: 50px;
+    flex-wrap: wrap;
 }
 .links a {
     color: white;

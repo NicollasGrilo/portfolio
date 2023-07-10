@@ -1,24 +1,30 @@
 import styles from './AbilitiesSection.module.css'
-import devfoto from '../../img/devfoto.jpg'
 
 function Abilities() {
     return (
-        <section className={styles.home}>
-            <h1>Habilidades</h1>
-            <div className={styles.home2}>
-                <img src={devfoto} alt='Programador' />
+        <section>
+            <h1 className={styles.abilities_h1}>Habilidades</h1>
+            <div className={styles.home}>
                 <ul className={styles.list}>
-                    <li className={styles.h1}>
-                        <h2>Exemplo 1</h2>
-                        <p>As publicações de notícias oferecem uma ótima maneira de informar os clientes sobre novos produtos e serviços, eventos, prêmios e muito mais.</p>
+                    <li className={styles.a1}>
+                        <h2>Hab 1</h2>
+                        <p>Organização</p>
                     </li>
-                    <li className={styles.h2}>
-                        <h2>Exemplo 2</h2>
-                        <p>As publicações de notícias oferecem uma ótima maneira de informar os clientes sobre novos produtos e serviços, eventos, prêmios e muito mais.</p>
+                    <li className={styles.a2}>
+                        <h2>Hab 2</h2>
+                        <p>Bom ouvinte</p>
                     </li>
-                    <li className={styles.h3}>
-                        <h2>Exemplo 3</h2>
-                        <p>As publicações de notícias oferecem uma ótima maneira de informar os clientes sobre novos produtos e serviços, eventos, prêmios e muito mais.</p>
+                    <li className={styles.a3}>
+                        <h2>Hab 3</h2>
+                        <p>Sempre pesquisando</p>
+                    </li>
+                    <li className={styles.a4}>
+                        <h2>Hab 4</h2>
+                        <p>Trabalho em equipe</p>
+                    </li>
+                    <li className={styles.a5}>
+                        <h2>Hab 5</h2>
+                        <p>Disciplinado</p>
                     </li>
                 </ul>
             </div>

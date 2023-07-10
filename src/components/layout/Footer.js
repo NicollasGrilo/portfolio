@@ -3,6 +3,8 @@ import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import styles from './Footer.module.css'
 
+
+
 function Footer() {
     return (
         <footer className={styles.footer}>
@@ -25,9 +27,9 @@ function Footer() {
                 </li>
             </ul>
             <ul className={styles.social_list}>
-                <li><FaFacebook /></li>
-                <li><FaInstagram /></li>
-                <li><FaLinkedin /></li>
+                <li className={styles.link}><a href='https://facebook.com/NicollasGrilo'><FaFacebook /></a></li>
+                <li className={styles.link}><a href='https://instagram.com/ngrilooo'><FaInstagram /></a></li>
+                <li className={styles.link}><a href='https://linkedin.com/in/nicollas-viana'><FaLinkedin /></a></li>
             </ul>
         </footer>
     )
