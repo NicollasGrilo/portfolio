@@ -7,7 +7,7 @@ import styles from './Footer.module.css'
 
 function Footer() {
     return (
-        <footer className={styles.footer}>
+        <footer className={styles.footer} id='footer'>
             <ul className={styles.list}>
                 <li><MdComputer/></li>
                 <li className={styles.item}><p>Portfólio Dev</p></li>

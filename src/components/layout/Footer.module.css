@@ -1,5 +1,5 @@
 .footer {
-    background-color: #737373;
+    background-color: #1a1a1a;
     color: white;
     padding: 3em;
     text-align: center;
@@ -27,7 +27,13 @@
 }
 
 .link a {
+    font-size: 20px;
     color: white;
+    transition: .5s;
+}
+
+.link a:hover {
+    color: #f5c056;
 }
 
 .links {

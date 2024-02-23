@@ -1,25 +1,83 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 3em;
-    background-image: linear-gradient(
-    90deg, #8c52ff, #5ce1e6)
+    padding: 2em;
+    background-color: #1a1a1a;
+    border-bottom: 2px solid yellow;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
 }
-.list {
+.list_logo {
     display: flex;
     list-style: none;
     align-items: center;
     color: white;
+    justify-content: space-around;
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+    gap: 18vw;
 }
-.list svg {
+.list_logo svg {
     font-size: 4em;
+}
+
+span a {
+    margin-left: 0.5em;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
 }
 
 .item {
     margin-left: 0.5em;
-    font-size: 1.4em;
+    font-size: 1em;
+    font-weight: bold;
 }
 
 .item a {
     text-decoration: none;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    align-items: end;
+    color: white;
+    justify-content: end;
+    gap: 2vw;
+    transition: 1.5s;
+}
+
+.list a:hover {
+    color: rgb(131, 130, 130);
+    cursor: pointer;
+}
+
+.navBurguer { 
+    display: none;
+}   
+
+@media (max-width: 650px){
+    .navBurguer {
+        display: block;
+        z-index: 99999;
+    }
+    .list {
+        display: none;
+    }
+    .active {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4rem;
+        margin-top: 60vh;
+        background-color: #1a1a1a;
+        width: 100%;
+        height: 70%;
+        z-index: 10;
+        border-bottom: 2px solid yellow;
+    }
 }

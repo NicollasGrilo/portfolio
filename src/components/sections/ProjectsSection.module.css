@@ -1,51 +1,72 @@
 .home {
-    background-image: linear-gradient(90deg, #5de0e6, #004aad);
+    background-color: #1a1a1a;
     flex-direction: column;
     display: flex;
     padding: 5.5em;
     flex-wrap: wrap;
 }
 .home h1{
-    font-size: 50px;
+    font-size: 2em;
+    color: white;
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 7vh;
+}
+
+.projectsWrap {
+    display: flex;
+    justify-content: space-between;
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+
+.languageLayout{
+    color: rgb(174, 173, 173);
+    background-color: #0d0d0d;
+    padding: .4em;
+    border-radius: 5px;
+}
+
+.githubLink {
+    margin-top: 2vh;
+    text-decoration: none;
+    color: rgb(174, 173, 173);
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    line-height: 0;
+    gap: .2em;
+    transition: 0s;
+} .githubLink:hover {
     color: white;
 }
 
-.list {
-    flex-wrap: wrap;
-    list-style-type: none;
+.blackJack, .calculateMass, .botAutomation, .alexaArtesanal {
     display: flex;
-    justify-content: space-around;
+    background-color: #1a1a1a;
+    border: 1px solid rgb(174, 173, 173);
+    padding: 1.5em;
+    border-radius: 8px;
+    width: 20vw;
     align-items: center;
-    margin-top: 100px;
-    margin-bottom: 150px;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: rgb(174, 173, 173) 0px 5px 15px;
+}
+.blackJack p, .calculateMass p, .botAutomation p, .alexaArtesanal p {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 1.5vh;
 }
 
-.p1 {
-    background-color: white;
-    width: 200px;
-    padding: 1.5em;
-    border-radius: 12px;
-    margin-bottom: 20px;
-    -webkit-box-shadow: 0px 18px 20px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 18px 20px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 18px 20px 0px rgba(0,0,0,0.75);
-}
-.p2 {
-    background-color: white;
-    width: 200px;
-    padding: 1.5em;
-    border-radius: 12px;
-    margin-bottom: 20px;
-    -webkit-box-shadow: 0px 18px 20px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 18px 20px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 18px 20px 0px rgba(0,0,0,0.75);
-}
-.p3 {
-    background-color: white;
-    width: 200px;
-    padding: 1.5em;
-    border-radius: 12px;
-    -webkit-box-shadow: 0px 18px 20px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 18px 20px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 18px 20px 0px rgba(0,0,0,0.75);
+@media (max-width: 980px){
+    .blackJack, .calculateMass, .botAutomation, .alexaArtesanal {
+        width: 100%;
+    }
 }
