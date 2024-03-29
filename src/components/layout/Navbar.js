@@ -4,6 +4,12 @@ import { useState , useRef } from 'react'
 import { Divide as Hamburger } from 'hamburger-react'
 
 function Navbar() {
+
+    const MenuItens = () => {
+        setActive(!isActive);
+        setIsOpen(!isOpen);
+    };
+
     const [isActive, setActive] = useState("false");
     const handleToggle = () => {
         setActive(!isActive);
@@ -17,16 +23,16 @@ function Navbar() {
                     <a className={styles.item}>Portfólio Dev</a>
                     <div className={styles.navBurguer} onClick={handleToggle}><Hamburger color='#ffff' toggled={isOpen} size='40' rounded toggle={setIsOpen} /></div>
                     <div className={isActive ? styles.list : styles.active}>
-                        <div>
+                        <div onClick={MenuItens}>
                             <span className={styles.item}><HashLink to="#home">Home</HashLink></span>
                         </div>
-                        <div>
+                        <div onClick={MenuItens}>
                             <span className={styles.item}><HashLink to="#projects">Projects</HashLink></span>
                         </div>
-                        <div>
+                        <div onClick={MenuItens}>
                             <span className={styles.item}><HashLink to="#contact">Contact</HashLink></span>
                         </div>
-                        <div>
+                        <div onClick={MenuItens}>
                             <span className={styles.item}><HashLink to="#footer">Social Media</HashLink></span>
                         </div>                 
                     </div>
