@@ -26,6 +26,11 @@ function Projects () {
                     <div className={styles.languageLayout}>Language used: HTML, CSS, JavaScript</div>
                     <div><a className={styles.githubLink} target='_blank' href='https://github.com/NicollasGrilo/alexa-artesanal'><FaGithub/>GitHub Code</a></div>
                 </div>
+                <div className={styles.cadastroBeneficiario}>
+                    <p>Cadastro Beneficiário</p>
+                    <div className={styles.languageLayout}>Language used: Java Spring Boot</div>
+                    <div><a className={styles.githubLink} target='_blank' href='https://github.com/NicollasGrilo/cadastro-beneficiarios'><FaGithub/>GitHub Code</a></div>
+                </div>
             </div>
         </section>
     )
