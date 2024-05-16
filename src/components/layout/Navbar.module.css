@@ -38,7 +38,7 @@ span a {
     text-decoration: none;
 }
 
-.list {
+.mainNav {
     display: flex;
     list-style: none;
     flex-direction: row;
@@ -49,9 +49,13 @@ span a {
     transition: 1.5s;
 }
 
-.list a:hover {
+.mainNav a:hover {
     color: rgb(131, 130, 130);
     cursor: pointer;
+}
+
+.list {
+    display: none;
 }
 
 .navBurguer { 
@@ -62,6 +66,9 @@ span a {
     .navBurguer {
         display: block;
         z-index: 99999;
+    }
+    .mainNav {
+        display: none;
     }
     .list {
         display: none;
