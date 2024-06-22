@@ -1,5 +1,5 @@
 import { MdComputer } from 'react-icons/md'
-import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa'
+import { FaFacebook, FaInstagram, FaLinkedin, FaFilePdf } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import styles from './Footer.module.css'
 
@@ -30,6 +30,7 @@ function Footer() {
                 <li className={styles.link}><a href='https://facebook.com/NicollasGrilo'><FaFacebook /></a></li>
                 <li className={styles.link}><a href='https://instagram.com/ngrilooo'><FaInstagram /></a></li>
                 <li className={styles.link}><a href='https://linkedin.com/in/nicollas-viana'><FaLinkedin /></a></li>
+                <li className={styles.link}><a href='https://drive.google.com/file/d/1Lteh2SCY1YEL19x5bbmOin9E3dmDvQWf/view?usp=drive_link'><FaFilePdf /></a></li>
             </ul>
         </footer>
     )
